@@ -1,11 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class Products extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Products</h1>
-      </div>
-    );
-  }
+export default function() {
+  return (
+    <div className="products-wrapper">
+      <h1>Products</h1>
+    </div>
+  );
 }

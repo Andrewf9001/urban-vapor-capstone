@@ -1,0 +1,20 @@
+@media (min-width: 48em) {
+  .left-side {
+    display: flex !important;
+  }
+
+  .nav-hamburger {
+    display: none !important;
+  }
+
+  .dropdown-nav-wrapper {
+    display: none !important;
+  }
+  .cloud-menus {
+  }
+  .fda-warning-wrapper {
+    h1 {
+      font-size: 50px;
+    }
+  }
+}

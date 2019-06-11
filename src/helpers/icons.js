@@ -8,7 +8,8 @@ import {
   faEnvelope,
   faMapMarkedAlt,
   faLock,
-  faShoppingCart
+  faShoppingCart,
+  faBars
 } from "@fortawesome/free-solid-svg-icons";
 
 const Icons = () => {
@@ -21,7 +22,8 @@ const Icons = () => {
     faEnvelope,
     faMapMarkedAlt,
     faLock,
-    faShoppingCart
+    faShoppingCart,
+    faBars
   );
 };
 
