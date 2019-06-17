@@ -42,12 +42,6 @@ export default class App extends Component {
   render() {
     return (
       <div className="container">
-        <div className="fda-warning-wrapper">
-          <h1>
-            WARNING: This product contains nicotine. Nicotine is an addictive
-            chemical.
-          </h1>
-        </div>
         <Router>
           <div>
             <NavigationComponent handleToggle={this.handleToggle} />

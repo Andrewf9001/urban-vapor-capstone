@@ -1,21 +1,14 @@
 import React from "react";
 
-import Logo from "../../../static/assets/images/timebomb.jpg";
+import Logo from "../../../static/assets/images/uv-logo.png";
 
 export default function() {
   return (
-    <div className="content-page-wrapper">
-      <div
-        className="left-column"
-        style={{
-          background: "url(" + Logo + ") no-repeat",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          height: "30px",
-          width: "50px"
-        }}
-      />
-      <div className="right-column">
+    <div className="about-page-wrapper">
+      <div className="left-about-column">
+        <img src={Logo} alt="Logo" />
+      </div>
+      <div className="right-about-column">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorum
         expedita laboriosam ducimus libero labore, tempora aut aspernatur itaque
         doloribus odit quas similique beatae optio recusandae cupiditate,

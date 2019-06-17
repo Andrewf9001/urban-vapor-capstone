@@ -1,12 +1,21 @@
-.content-page-wrapper {
-  // position: fixed;
-  // z-index: -1;
-  display: flex;
+.about-page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
   justify-content: center;
   text-align: center;
 
-  .left-column {
-    // display: flex;
-    // background: url("/assets/images/timebomb.jpg");
+  .left-about-column img {
+    // background: url("/assets/images/uv-logo.png");
+    // background-size: cover;
+    // background-position: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 43px;
+  }
+
+  .right-about-column {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
   }
 }

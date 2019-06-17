@@ -1,6 +1,19 @@
+@media (min-width: 768px) {
+  .left-about-column img {
+    height: 20vh !important;
+    width: 50% !important;
+    margin-top: 43px !important;
+  }
+}
+
 @media (min-width: 48em) {
   .left-side {
     display: flex !important;
+  }
+
+  .nav-link-wrapper {
+    margin-right: 10px;
+    margin-left: 15px;
   }
 
   .nav-hamburger {
@@ -11,10 +24,23 @@
     display: none !important;
   }
   .cloud-menus {
+    display: flex;
+    flex-direction: row !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
   .fda-warning-wrapper {
     h1 {
-      font-size: 50px;
+      font-size: 18px !important;
     }
+  }
+
+  .left-about-column img {
+    height: 50% !important;
+    width: 30% !important;
+  }
+
+  .right-about-column {
+    padding: 60px !important;
   }
 }
