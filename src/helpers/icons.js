@@ -12,6 +12,11 @@ import {
   faBars
 } from "@fortawesome/free-solid-svg-icons";
 
+import {
+  faFacebookSquare,
+  faInstagram
+} from "@fortawesome/free-brands-svg-icons";
+
 const Icons = () => {
   return library.add(
     faTrash,
@@ -23,7 +28,9 @@ const Icons = () => {
     faMapMarkedAlt,
     faLock,
     faShoppingCart,
-    faBars
+    faBars,
+    faFacebookSquare,
+    faInstagram
   );
 };
 

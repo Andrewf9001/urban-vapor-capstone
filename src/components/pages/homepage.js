@@ -1,8 +1,9 @@
 import React from "react";
 
+import Footer from "../navigation/footer";
 import BrandLogo from "../../../static/assets/images/c4lnowarning.png";
-import Logo from "../../../static/assets/images/c4lmenu1.jpg";
-import Logo2 from "../../../static/assets/images/c4lmenu2.jpg";
+import Logo from "../../../static/assets/images/clouds4less-menu.png";
+import Logo2 from "../../../static/assets/images/clouds4less-menu.png";
 
 export default function() {
   return (
@@ -19,6 +20,7 @@ export default function() {
           <img src={Logo2} alt="Background" />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

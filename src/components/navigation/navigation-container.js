@@ -21,23 +21,28 @@ class NavigationComponent extends Component {
             </NavLink>
           </div>
           <div className="nav-link-wrapper">
-            <NavLink exact to="/about" activeClassName="nav-link-active">
-              About
+            <NavLink exact to="/e-liquid" activeClassName="nav-link-active">
+              E-Liquid
             </NavLink>
           </div>
           <div className="nav-link-wrapper">
-            <NavLink exact to="/contact" activeClassName="nav-link-active">
-              Contact
+            <NavLink to="/tanks" activeClassName="nav-link-active">
+              Tanks
             </NavLink>
           </div>
           <div className="nav-link-wrapper">
-            <NavLink exact to="/products" activeClassName="nav-link-active">
-              Products
+            <NavLink exact to="/pod-systems" activeClassName="nav-link-active">
+              Pod Systems
             </NavLink>
           </div>
           <div className="nav-link-wrapper">
-            <NavLink exact to="/specials" activeClassName="nav-link-active">
-              Specials
+            <NavLink exact to="/accessories" activeClassName="nav-link-active">
+              Accessories
+            </NavLink>
+          </div>
+          <div className="nav-link-wrapper">
+            <NavLink exact to="/starter-kits" activeClassName="nav-link-active">
+              Starter Kits
             </NavLink>
           </div>
         </div>

@@ -4,6 +4,12 @@
   width: 100%;
   justify-content: center;
   z-index: 1;
+  background: linear-gradient(
+    90deg,
+    rgba(110, 110, 116, 1) 0%,
+    rgba(43, 42, 42, 1) 100%,
+    rgba(154, 154, 159, 1) 100%
+  );
 
   .dropdown-left-side {
     display: flex;

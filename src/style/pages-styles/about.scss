@@ -1,8 +1,11 @@
 .about-page-wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
+  min-height: 70vh;
+  padding-top: 34px;
+  padding-bottom: 30px;
 
   .left-about-column img {
     // background: url("/assets/images/uv-logo.png");

@@ -25,41 +25,46 @@ class NavbarDropdown extends Component {
           <div className="dropdown-nav-link-wrapper">
             <NavLink
               onClick={this.props.handleNavbarClose}
-              exact
-              to="/about"
+              to="/e-liquid"
               activeClassName="dropdown-nav-link-active"
             >
-              About
+              E-Liquid
             </NavLink>
           </div>
           <div className="dropdown-nav-link-wrapper">
             <NavLink
               onClick={this.props.handleNavbarClose}
-              exact
-              to="/contact"
+              to="/tanks"
               activeClassName="dropdown-nav-link-active"
             >
-              Contact
+              Tanks
             </NavLink>
           </div>
           <div className="dropdown-nav-link-wrapper">
             <NavLink
               onClick={this.props.handleNavbarClose}
-              exact
-              to="/products"
+              to="/pod-systems"
               activeClassName="dropdown-nav-link-active"
             >
-              Products
+              Pod Systems
             </NavLink>
           </div>
           <div className="dropdown-nav-link-wrapper">
             <NavLink
               onClick={this.props.handleNavbarClose}
-              exact
-              to="/specials"
+              to="/accessories"
               activeClassName="dropdown-nav-link-active"
             >
-              Specials
+              Accessories
+            </NavLink>
+          </div>
+          <div className="dropdown-nav-link-wrapper">
+            <NavLink
+              onClick={this.props.handleNavbarClose}
+              to="/starter-kits"
+              activeClassName="dropdown-nav-link-active"
+            >
+              Starter Kits
             </NavLink>
           </div>
         </div>

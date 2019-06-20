@@ -1,7 +1,6 @@
 .homepage-wrapper {
-  // display: flex;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 
   .urban-home {
     display: flex;
@@ -26,12 +25,10 @@
     padding-right: 10px;
 
     .cloud-menu-one img {
-      height: 80vh;
       width: 100%;
     }
 
     .cloud-menu-two img {
-      height: 80vh;
       width: 100%;
     }
   }

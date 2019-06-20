@@ -1,8 +1,10 @@
-@media (min-width: 768px) {
-  .left-about-column img {
-    height: 20vh !important;
-    width: 50% !important;
-    margin-top: 43px !important;
+@media (max-width: 768px) {
+  .nav-wrapper {
+    padding-left: 50px;
+    font-size: 15px;
+  }
+  .homepage-wrapper {
+    height: 100vh !important;
   }
 }
 
@@ -35,12 +37,15 @@
     }
   }
 
-  .left-about-column img {
-    height: 50% !important;
-    width: 30% !important;
+  .about-page-wrapper img {
+    width: 34% !important;
   }
 
   .right-about-column {
-    padding: 60px !important;
+    padding-bottom: 80px !important;
+  }
+
+  .footer-left-side img {
+    width: 27% !important;
   }
 }
