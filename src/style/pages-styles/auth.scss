@@ -1,0 +1,50 @@
+.auth-page-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 65vh;
+
+  .auth-left-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/static/assets/images/frontshot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .auth-right-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .auth-form-wrapper {
+    display: grid;
+    grid-gap: 21px;
+    font-size: 1.2em;
+
+    .form-group {
+      input {
+        font-size: 0.75em;
+        border-right: 0px;
+        border-left: 0px;
+        border-top: 0px;
+        border-bottom: 1px solid black;
+        outline: none;
+      }
+
+      svg {
+        padding-right: 10px;
+      }
+
+      .btn {
+        outline: none;
+      }
+    }
+  }
+}
+
+.login-text {
+  text-align: center;
+}

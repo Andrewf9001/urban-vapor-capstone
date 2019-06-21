@@ -11,6 +11,7 @@ import Tanks from "./pages/tanks";
 import PodSystems from "./pages/pod-systems";
 import Accessories from "./pages/accessories";
 import StarterKits from "./pages/starter-kits";
+import Auth from "./pages/auth";
 import Icons from "../helpers/icons";
 import NavbarDropdown from "./navigation/navbar-dropdown";
 
@@ -62,6 +63,7 @@ export default class App extends Component {
               <Route path="/pod-systems" component={PodSystems} />
               <Route path="/accessories" component={Accessories} />
               <Route path="/starter-kits" component={StarterKits} />
+              <Route path="/auth" component={Auth} />
             </Switch>
           </div>
         </Router>
