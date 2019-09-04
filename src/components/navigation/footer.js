@@ -30,9 +30,13 @@ class Footer extends Component {
               Contact
             </NavLink>
           </div>
-          <div className="footer-facebook">
-            <FontAwesomeIcon icon={["fab", "facebook-square"]} />
-            <FontAwesomeIcon icon={["fab", "instagram"]} />
+          <div className="sm-icon">
+            <div className="fb-icon">
+              <FontAwesomeIcon icon={["fab", "facebook-square"]} />
+            </div>
+            <div className="ig-icon">
+              <FontAwesomeIcon icon={["fab", "instagram"]} />
+            </div>
           </div>
         </div>
       </div>

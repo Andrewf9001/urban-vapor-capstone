@@ -36,8 +36,8 @@ class NavigationComponent extends Component {
             </NavLink>
           </div>
           <div className="nav-link-wrapper">
-            <NavLink exact to="/accessories" activeClassName="nav-link-active">
-              Accessories
+            <NavLink exact to="/mods" activeClassName="nav-link-active">
+              Mods
             </NavLink>
           </div>
           <div className="nav-link-wrapper">

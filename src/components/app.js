@@ -9,7 +9,7 @@ import Contact from "./pages/contact";
 import ELiquid from "./pages/e-liquid";
 import Tanks from "./pages/tanks";
 import PodSystems from "./pages/pod-systems";
-import Accessories from "./pages/accessories";
+import Mods from "./pages/mods";
 import StarterKits from "./pages/starter-kits";
 import Auth from "./pages/auth";
 import Icons from "../helpers/icons";
@@ -61,7 +61,7 @@ export default class App extends Component {
               <Route path="/e-liquid" component={ELiquid} />
               <Route path="/tanks" component={Tanks} />
               <Route path="/pod-systems" component={PodSystems} />
-              <Route path="/accessories" component={Accessories} />
+              <Route path="/mods" component={Mods} />
               <Route path="/starter-kits" component={StarterKits} />
               <Route path="/auth" component={Auth} />
             </Switch>

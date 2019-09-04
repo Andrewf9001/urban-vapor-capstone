@@ -52,10 +52,10 @@ class NavbarDropdown extends Component {
           <div className="dropdown-nav-link-wrapper">
             <NavLink
               onClick={this.props.handleNavbarClose}
-              to="/accessories"
+              to="/mods"
               activeClassName="dropdown-nav-link-active"
             >
-              Accessories
+              Mods
             </NavLink>
           </div>
           <div className="dropdown-nav-link-wrapper">

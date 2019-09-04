@@ -1,26 +1,42 @@
-import React from "react";
+import React, { Component } from "react";
+import axios from "axios";
 
 import Footer from "../navigation/footer";
 import BrandLogo from "../../../static/assets/images/c4lnowarning.png";
-import Logo from "../../../static/assets/images/clouds4less-menu.png";
-import Logo2 from "../../../static/assets/images/clouds4less-menu.png";
+// import Logo from "../../../static/assets/images/clouds4less-menu.png";
+// import Logo2 from "../../../static/assets/images/clouds4less-menu.png";
 
-export default function() {
-  return (
-    <div className="homepage-wrapper">
-      <div className="urban-home">
-        <img src={BrandLogo} alt="Logo" />
-      </div>
-      <div className="cloud-menus">
-        <div className="cloud-menu-one">
-          <img src={Logo} alt="Background" />
-        </div>
+export default class Homepage extends Component {
+  constructor() {
+    super();
 
-        <div className="cloud-menu-two">
-          <img src={Logo2} alt="Background" />
+    this.state = {
+      cloud_items: []
+    };
+  }
+
+  componentDidMount() {
+    axios.get("https://urban-vapor-api.herokuapp.com/clouds").then(response => {
+      console.log(res);
+      this.setState({ cloud_items: response.data });
+    });
+  }
+
+  render() {
+    return (
+      <div className="homepage-wrapper">
+        <div className="urban-home">
+          <img src={BrandLogo} alt="Logo" />
         </div>
+        <div className="cloud-menus">
+          <ul>
+            {this.state.cloud_items.map(cloud_items => (
+              <li>{cloud_items.brand}</li>
+            ))}
+          </ul>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
-  );
+    );
+  }
 }

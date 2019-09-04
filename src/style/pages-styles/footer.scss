@@ -12,6 +12,7 @@
 
   .footer-left-side {
     img {
+      margin-top: 10px;
       width: 64%;
       // height: 25%;
     }
@@ -34,6 +35,34 @@
         text-decoration: none;
         color: $offwhite;
       }
+    }
+  }
+
+  .sm-icon {
+    display: flex;
+    color: $offwhite;
+    margin-top: 5px;
+
+    .fb-icon {
+      font-size: 2em;
+    }
+
+    .ig-icon {
+      font-size: 2em;
+      margin-left: 5px;
+      // background: radial-gradient(
+      //   circle,
+      //   rgba(64, 93, 230, 1) 4%,
+      //   rgba(88, 81, 219, 1) 12%,
+      //   rgba(131, 58, 180, 1) 21%,
+      //   rgba(193, 53, 132, 1) 29%,
+      //   rgba(225, 48, 108, 1) 37%,
+      //   rgba(253, 29, 29, 1) 47%,
+      //   rgba(245, 96, 64, 1) 59%,
+      //   rgba(247, 119, 55, 1) 70%,
+      //   rgba(252, 175, 69, 1) 86%,
+      //   rgba(255, 220, 128, 1) 100%
+      // );
     }
   }
 }
