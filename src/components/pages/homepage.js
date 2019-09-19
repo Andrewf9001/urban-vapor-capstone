@@ -17,7 +17,7 @@ export default class Homepage extends Component {
 
   componentDidMount() {
     axios.get("https://urban-vapor-api.herokuapp.com/clouds").then(response => {
-      console.log(res);
+      console.log(response);
       this.setState({ cloud_items: response.data });
     });
   }
@@ -31,7 +31,7 @@ export default class Homepage extends Component {
         <div className="cloud-menus">
           <ul>
             {this.state.cloud_items.map(cloud_items => (
-              <li>{cloud_items.brand}</li>
+              <li>{cloud_items.flavor}</li>
             ))}
           </ul>
         </div>
