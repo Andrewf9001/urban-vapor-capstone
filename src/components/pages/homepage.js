@@ -31,7 +31,7 @@ export default class Homepage extends Component {
         <div className="cloud-menus">
           <ul>
             {this.state.cloud_items.map(cloud_items => (
-              <li>{cloud_items.flavor}</li>
+              <li>{cloud_items.flavors}</li>
             ))}
           </ul>
         </div>
