@@ -15,12 +15,12 @@ export default class Homepage extends Component {
     };
   }
 
-  componentDidMount() {
-    axios.get("https://urban-vapor-api.herokuapp.com/clouds").then(response => {
-      console.log(response);
-      this.setState({ cloud_items: response.data });
-    });
-  }
+  // componentDidMount() {
+  //   axios.get("https://urban-vapor-api.herokuapp.com/clouds").then(response => {
+  //     console.log(response);
+  //     this.setState({ cloud_items: response.data });
+  //   });
+  // }
 
   render() {
     return (
@@ -29,11 +29,11 @@ export default class Homepage extends Component {
           <img src={BrandLogo} alt="Logo" />
         </div>
         <div className="cloud-menus">
-          <ul>
+          {/* <ul>
             {this.state.cloud_items.map(cloud_items => (
               <li>{cloud_items.flavors}</li>
             ))}
-          </ul>
+          </ul> */}
         </div>
         <Footer />
       </div>
