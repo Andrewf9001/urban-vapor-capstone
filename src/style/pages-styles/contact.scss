@@ -1,4 +1,6 @@
 .contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
   min-height: 70vh;
 
   .contact-bullet-points {

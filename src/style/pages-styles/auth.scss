@@ -3,13 +3,10 @@
   grid-template-columns: 1fr 1fr;
   min-height: 65vh;
 
-  .auth-left-column {
+  .auth-left-column img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/static/assets/images/frontshot.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 100%;
   }
 
